@@ -221,6 +221,9 @@ outline: none;
 .dash-container > div{
     padding: 15px 20px;
 }
+.dash-container > div:has(.wel-up){
+    padding: 0px;
+}
 .dash-container > div > p ,
 .wel-up p{
     color: var(--grey-color);
